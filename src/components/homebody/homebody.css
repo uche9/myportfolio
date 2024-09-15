@@ -5,18 +5,29 @@
     align-items: center;
 }
 
-
+.brief--intro{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+}
 
 .name{
     color: blueviolet;
-    font-size: 34px;
+    font-size: 30px;
+    font-weight: 700;
     margin-top:50px;
-    
+    width:80%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .profile--photo--container{
     background-color: #bbb;
-    width: 100%;
+    width: 90%;
     height:400px;
     display: flex;
     justify-content: center;
