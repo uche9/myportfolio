@@ -9,7 +9,7 @@ import Portfolio from './Portfolio.js';
 import About from './About.js';
 function App() {
 
-  if (window.location.pathname==='/home'){  
+  if (window.location.pathname==='/' || window.location.pathname==='/home'){  
     return (
       <div>
              <Home />
